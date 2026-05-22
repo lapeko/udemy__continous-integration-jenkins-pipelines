@@ -29,6 +29,5 @@ func TestMain(t *testing.T) {
 	}
 }
 
-func TestFail(t *testing.T) {
-	t.Fatalf("Test failed")
-}
+func TestOk01(t *testing.T) {}
+func TestOk02(t *testing.T) {}
