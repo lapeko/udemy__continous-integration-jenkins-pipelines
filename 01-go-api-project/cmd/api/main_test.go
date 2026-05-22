@@ -28,3 +28,7 @@ func TestMain(t *testing.T) {
 		t.Fatalf("Received response %s when %s expected\n", response, expected)
 	}
 }
+
+func TestFail(t *testing.T) {
+	t.Fatalf("Test failed")
+}
